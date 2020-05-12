@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.homepage, .about, .two-section {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.homepage > h2, .about > h2, .two-section > h2 {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.homepage > a, .about > a, .two-section > a {
+  color: #fff;
+}
+
+.homepage {
+  background-color: #E91E63;
+}
+
+.about {
+  background-color: #1E88E5;
+}
+
+.two-section {
+  background-color: #3949AB;
+}
+/*# sourceMappingURL=style.css.map */
